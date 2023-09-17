@@ -14,7 +14,6 @@ const pair = await createKeyPair();
 // the specified tickers. after tapping, the specified tickers are associated with the account that tapped it.
 //
 // each hash must be unique. therefore the authority must provide a salt to make sure the resulting hash is unique.
-
 const authResult = await createAuth(
     pair.pk,
     pair.pub,
