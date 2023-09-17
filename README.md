@@ -1,6 +1,6 @@
 # TAP Token Auth Signatures
 
-´´´javascript
+```javascript
 import * as secp from '@noble/secp256k1';
 import secp256k1 from 'secp256k1';
 import {createHash} from "node:crypto";
